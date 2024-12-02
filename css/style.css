@@ -1,0 +1,310 @@
+/* livvic-500italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Livvic";
+  font-style: italic;
+  font-weight: 500;
+  src: url("../fonts/livvic-v14-latin-500italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* livvic-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/livvic-v14-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* livvic-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/livvic-v14-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* livvic-700italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Livvic";
+  font-style: italic;
+  font-weight: 700;
+  src: url("../fonts/livvic-v14-latin-700italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* global start */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.orange-text {
+  color: #f67e7e;
+}
+
+img {
+  display: flex;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family: "Livvic", sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 600;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.container {
+  width: 100%;
+  max-width: 1210px;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  border: 2px solid transparent;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  padding: 9px 33px 11px 32px;
+  border-radius: 24px;
+  transition: 0.5s;
+  &:active {
+    opacity: 70%;
+  }
+}
+
+.btn-white {
+  color: white;
+  border-color: #ffffff;
+  &:hover {
+    background-color: #ffffff;
+    color: #002529;
+  }
+}
+
+.btn-dark {
+  color: #002529;
+  border-color: #002529;
+  &:hover {
+    background-color: #002529;
+    color: #ffffff;
+  }
+}
+
+.divider {
+  height: 4px;
+  width: 50px;
+}
+
+.blue-divider {
+  background-color: #79c8c7;
+}
+
+/* global end  */
+
+/* header start */
+.header {
+  background-color: #014e56;
+  padding-top: 73px;
+  padding-bottom: 73px;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.sitelogo {
+  margin-right: 80px;
+  color: #ffffff;
+}
+
+.site-logo-image {
+  &:hover {
+    opacity: 80%;
+    transition: 0.3s;
+  }
+  &:active {
+    opacity: 35%;
+  }
+}
+
+.sitenav {
+  margin-right: auto;
+}
+.sitenav-list {
+  display: flex;
+  gap: 40px;
+}
+.sitenav-item {
+}
+.sitenav-link {
+  color: #ffffff;
+  &:hover {
+    color: #f67e7e;
+  }
+  &:active {
+    opacity: 0.7;
+  }
+}
+.btn {
+}
+.btn-white {
+}
+.header-btn {
+}
+/* header end */
+
+/* main start */
+
+/* hero start  */
+.main {
+}
+.hero {
+  padding-top: 56px;
+  background-color: #014e56;
+  color: #ffffff;
+  padding-bottom: 250px;
+  background-image: url("../images/hero-left.png"), url("../images/hero-rb.svg");
+  background-repeat: no-repeat;
+  background-position: left -100px top 130px, right 165px bottom -100px;
+}
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-divider {
+  margin-bottom: 79px;
+}
+
+.hero-title {
+  font-size: 100px;
+  line-height: 100px;
+  width: 535px;
+}
+
+.hero-description {
+  width: 100%;
+  max-width: 445px;
+}
+
+.hero-description-text {
+  font-size: 18px;
+  line-height: 28px;
+}
+/* hero end */
+
+/* teams start  */
+.teams {
+  background-color: #012f34;
+}
+.teams-container {
+  display: flex;
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+
+.teams-title {
+  color: #ffffff;
+  font-size: 48px;
+  line-height: 48px;
+  width: 445px;
+}
+.teams-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+.teams-item {
+}
+.teams-icon {
+}
+.teams-item-title {
+  color: #f67e7e;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 16px;
+}
+.teams-description {
+  color: #ffffff;
+}
+/* teams end */
+
+/* story start */
+.story {
+  background-color: #004047;
+}
+.story-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.story-title {
+  margin-top: 140px;
+  margin-bottom: 56px;
+  color: #ffffff;
+  align-items: center;
+  font-size: 48px;
+  line-height: 48px;
+  width: 932px;
+}
+.blue-text {
+  color: #79c8c7;
+}
+.story-list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.story-description {
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+.story-owner {
+  margin-bottom: 2px;
+  color: #79c8c7;
+  font-size: 18px;
+  line-height: 28px;
+}
+.owner-job {
+  font-style: italic;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  margin-bottom: 32px;
+}
+.owner-photo {
+  width: 62px;
+  height: 62px;
+}
+
+/* story end */
+
+/* main end*/
