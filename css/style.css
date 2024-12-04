@@ -69,6 +69,7 @@ body {
   font-size: 15px;
   line-height: 25px;
   font-weight: 600;
+  background-color: #014e56;
 }
 
 main {
@@ -347,4 +348,55 @@ main {
     color: #f67e7e;
   }
 }
+
+.footer-b {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  background-color: #002529;
+  color: #ffffff;
+}
+.footer-container {
+  display: flex;
+}
+
+.footer-nav {
+  margin-right: 125px;
+}
+.footer-nav .sitelogo {
+  margin-bottom: 25px;
+}
+
+.footer-info {
+  margin-right: auto;
+}
+
+.footer-info address {
+  opacity: 0.6;
+  font-style: normal;
+}
+.footer-tel {
+  color: inherit;
+}
+.footer-terms {
+  opacity: 0.6;
+}
+.footer-socials {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+  align-items: center;
+}
+.footer-socials-icon {
+}
+.footer-icon-link {
+  margin-bottom: 51px;
+}
+
+.footer-socials-icon:hover svg path {
+  fill: #f67e7e;
+  &:active {
+    opacity: 0.6;
+  }
+}
+
 /* footer end */
