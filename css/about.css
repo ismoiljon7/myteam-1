@@ -1,0 +1,108 @@
+@import url(./global.css);
+
+.about {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-image: url(../images/about-bg.svg);
+  background-repeat: no-repeat;
+  background-position: right -100px bottom;
+}
+.about-container {
+  display: flex;
+}
+
+.about-title {
+  color: #ffff;
+  font-size: 64px;
+  line-height: 100px;
+  margin-right: auto;
+}
+.about-description {
+  width: 100%;
+  max-width: 730px;
+  height: 156px;
+}
+
+.about-divider {
+  margin-bottom: 40px;
+}
+.about-description-text {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+/* ditectors start */
+.directors {
+  background-color: #004047;
+}
+.directors-container {
+  padding-top: 140px;
+  padding-bottom: 140px;
+  display: flex;
+  flex-direction: column;
+}
+
+.directors-title {
+  color: #ffff;
+  text-align: center;
+  font-size: 48px;
+  line-height: 48px;
+  margin-bottom: 64px;
+}
+.directors-list {
+  display: flex;
+  gap: 30px;
+}
+.directors-info {
+  width: 100%;
+  max-width: 350px;
+  height: 253px;
+  background-color: #012f34;
+  justify-items: center;
+  padding-top: 32px;
+}
+.director-image {
+  margin-bottom: 16px;
+}
+.director-name {
+  color: #79c8c7;
+  font-size: 18px;
+  line-height: 28px;
+}
+.director-job {
+  color: white;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+}
+/* directors end */
+
+/* clients start */
+.clients {
+  background-color: #012f34;
+  background-image: url(../images/clients-bg-left.svg);
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+.clients-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+
+.clients-title {
+  color: #ffff;
+  text-align: center;
+  font-size: 48px;
+  line-height: 48px;
+  margin-bottom: 64px;
+}
+.clients-list {
+  display: flex;
+  gap: 80px;
+  align-items: center;
+}
+
+/* clients end */

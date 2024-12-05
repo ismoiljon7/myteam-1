@@ -1,0 +1,279 @@
+@import url(./global.css);
+
+/* main start */
+
+/* hero start  */
+.main {
+}
+.hero {
+  padding-top: 56px;
+  background-color: #014e56;
+  color: #ffffff;
+  padding-bottom: 250px;
+  background-image: url("../images/hero-left.png"), url("../images/hero-rb.svg");
+  background-repeat: no-repeat;
+  background-position: left -100px top 130px, right 165px bottom -100px;
+}
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-divider {
+  margin-bottom: 79px;
+}
+
+.hero-title {
+  font-size: 100px;
+  line-height: 100px;
+  width: 535px;
+}
+
+.hero-description {
+  width: 100%;
+  max-width: 445px;
+}
+
+.hero-description-text {
+  font-size: 18px;
+  line-height: 28px;
+}
+/* hero end */
+
+/* teams start  */
+.teams {
+  background-color: #012f34;
+}
+.teams-container {
+  display: flex;
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+
+.teams-benefits {
+  display: flex;
+}
+
+.benefits-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.teams-title {
+  color: #ffffff;
+  font-size: 48px;
+  line-height: 48px;
+  width: 445px;
+}
+.teams-list {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  gap: 32px;
+}
+.teams-item {
+}
+.teams-icon {
+}
+.teams-item-title {
+  color: #f67e7e;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 16px;
+}
+.teams-description {
+  color: #ffffff;
+}
+/* teams end */
+
+/* story start */
+.story {
+  background-color: #004047;
+}
+.story-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 140px;
+}
+
+.story-title {
+  margin-top: 140px;
+  margin-bottom: 56px;
+  color: #ffffff;
+  align-items: center;
+  font-size: 48px;
+  line-height: 48px;
+  width: 932px;
+}
+.blue-text {
+  color: #79c8c7;
+}
+.story-list {
+  display: flex;
+
+  gap: 30px;
+}
+.story-description {
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+.story-owner {
+  margin-bottom: 2px;
+  color: #79c8c7;
+  font-size: 18px;
+  line-height: 28px;
+}
+.owner-job {
+  font-style: italic;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  margin-bottom: 32px;
+}
+.owner-photo {
+  width: 62px;
+  height: 62px;
+}
+
+/* story end */
+
+/* main start */
+
+/* hero start  */
+.main {
+}
+.hero {
+  padding-top: 56px;
+  background-color: #014e56;
+  color: #ffffff;
+  padding-bottom: 250px;
+  background-image: url("../images/hero-left.png"), url("../images/hero-rb.svg");
+  background-repeat: no-repeat;
+  background-position: left -100px top 130px, right 165px bottom -100px;
+}
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-divider {
+  margin-bottom: 79px;
+}
+
+.hero-title {
+  font-size: 100px;
+  line-height: 100px;
+  width: 535px;
+}
+
+.hero-description {
+  width: 100%;
+  max-width: 445px;
+}
+
+.hero-description-text {
+  font-size: 18px;
+  line-height: 28px;
+}
+/* hero end */
+
+/* teams start  */
+.teams {
+  background-color: #012f34;
+}
+.teams-container {
+  display: flex;
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+
+.teams-benefits {
+  display: flex;
+}
+
+.benefits-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.teams-title {
+  color: #ffffff;
+  font-size: 48px;
+  line-height: 48px;
+  width: 445px;
+}
+.teams-list {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  gap: 32px;
+}
+.teams-item {
+}
+.teams-icon {
+}
+.teams-item-title {
+  color: #f67e7e;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 16px;
+}
+.teams-description {
+  color: #ffffff;
+}
+/* teams end */
+
+/* story start */
+.story {
+  background-color: #004047;
+}
+.story-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 140px;
+}
+
+.story-title {
+  margin-top: 140px;
+  margin-bottom: 56px;
+  color: #ffffff;
+  align-items: center;
+  font-size: 48px;
+  line-height: 48px;
+  width: 932px;
+}
+.blue-text {
+  color: #79c8c7;
+}
+.story-list {
+  display: flex;
+
+  gap: 30px;
+}
+.story-description {
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+.story-owner {
+  margin-bottom: 2px;
+  color: #79c8c7;
+  font-size: 18px;
+  line-height: 28px;
+}
+.owner-job {
+  font-style: italic;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  margin-bottom: 32px;
+}
+.owner-photo {
+  width: 62px;
+  height: 62px;
+}
+
+/* story end */
