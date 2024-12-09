@@ -36,18 +36,20 @@
         <!-- nav end -->
 
         <!-- button start -->
-        <a class="btn btn-white header-btn" href="#">contct us</a>
+        <a class="btn btn-white header-btn" href="../pages/contact.html"
+          >contct us</a
+        >
         <!-- button end -->
       </div>
     </header>
     <!-- header end -->
     <main class="main">
-      <section class="about">
-        <div class="about-container container">
-          <h2 class="about-title">About</h2>
-          <div class="about-description">
-            <div class="divider orange-divider about-divider"></div>
-            <p class="about-description-text">
+      <section class="hero">
+        <div class="hero-container container">
+          <h1 class="hero-title">About</h1>
+          <div class="hero-content">
+            <div class="divider orange-divider hero-divider"></div>
+            <p class="hero-description">
               We help companies build dynamic teams made up of top global
               talent. Using our network of passionate professionals we drive
               innovation and deliver incredible outcomes. Talented, diverse
@@ -62,34 +64,73 @@
         <div class="directors-container container">
           <h2 class="directors-title">Meet the directors</h2>
           <ul class="directors-list">
-            <li class="directors-info">
+            <li class="directors-item">
               <img
-                class="director-image"
                 src="../images/first-director.svg"
                 alt=""
+                class="directors-ava"
               />
-              <p class="director-name">Nikita Marks</p>
-              <p class="director-job">Founder & CEO</p>
+              <h3 class="directors-name">Nikita Marks</h3>
+              <i class="directors-job">Founder & CEO</i>
+              <button class="directors-btn">
+                <img src="../images/plus.icon.svg" alt="" class="plus-image" />
+              </button>
             </li>
-            <li class="directors-info">
-              <img class="director-image" src="../images/cristian.svg" alt="" />
-              <p class="director-name">Cristian Duncan</p>
-              <p class="director-job">Co-founder & COO</p>
+            <li class="directors-item">
+              <img
+                src="../images/cristian.svg"
+                alt="ava-of-director"
+                class="directors-ava"
+              />
+              <h3 class="directors-name">Cristian Duncan</h3>
+              <i class="directors-job">Co-founder & COO</i>
+              <button class="directors-btn">
+                <img src="../images/plus.icon.svg" alt="" class="plus-image" />
+              </button>
             </li>
-            <li class="directors-info">
-              <img class="director-image" src="../images/cruz.svg" alt="" />
-              <p class="director-name">Cruz Hamer</p>
-              <p class="director-job">Co-founder & CTO</p>
+            <li class="directors-item">
+              <img
+                src="../images/cruz.svg"
+                alt="ava-of-director"
+                class="directors-ava"
+              />
+              <h3 class="directors-name">Cruz Hamer</h3>
+              <i class="directors-job">Co-founder & CTO</i>
+              <button class="directors-btn">
+                <img src="../images/plus.icon.svg" alt="" class="plus-image" />
+              </button>
             </li>
-            <li class="directors-info">
-              <img class="director-image" src="../images/drake.svg" alt="" />
-              <p class="director-name">Drake Heaton</p>
-              <p class="director-job">Business Development Lead</p>
+            <li class="directors-item">
+              <img
+                src="../images/drake.svg"
+                alt="ava-of-director"
+                class="directors-ava"
+              />
+              <h3 class="directors-name">Drake Heaton</h3>
+              <i class="directors-job">Business Development Lead</i>
+              <button class="directors-btn">
+                <img src="../images/plus.icon.svg" alt="" class="plus-image" />
+              </button>
             </li>
-            <li class="directors-info">
-              <img class="director-image" src="../images/griffin.svg" alt="" />
-              <p class="director-name">Griffin Wise</p>
-              <p class="director-job">Lead Marketing</p>
+            <li class="directors-item">
+              <img src="../images/griffin.svg" alt=ava-of-director "" >
+              <h3 class="directors-name">Griffin Wise</h3>
+              <i class="directors-job">Lead Marketing</i>
+              <button class="directors-btn">
+                <img src="../images/plus.icon.svg" alt="" class="plus-image" />
+              </button>
+            </li>
+            <li class="directors-item">
+              <img
+                src="../images/adan.ava.svg"
+                alt="ava-of-director"
+                class="directors-ava"
+              />
+              <h3 class="directors-name">Aden Allan</h3>
+              <i class="directors-job">Head of Talent</i>
+              <button class="directors-btn">
+                <img src="../images/plus.icon.svg" alt="" class="plus-image" />
+              </button>
             </li>
           </ul>
         </div>
@@ -134,7 +175,9 @@
             <h2 class="footer-pink-title">Ready to get started ?</h2>
           </div>
           <div class="footer-pink-link">
-            <a class="btn footer-pink-btn" href="#">contact us</a>
+            <a class="btn footer-pink-btn" href="../pages/contact.html"
+              >contact us</a
+            >
           </div>
         </div>
       </section>
@@ -155,7 +198,7 @@
             <nav class="sitenav">
               <ul class="sitenav-list">
                 <li class="sitenav-item">
-                  <a class="sitenav-link" href="#">home</a>
+                  <a class="sitenav-link" href="../index.html">home</a>
                 </li>
                 <li class="sitenav-item">
                   <a class="sitenav-link" href="#" id="active">about</a>

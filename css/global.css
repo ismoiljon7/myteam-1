@@ -59,6 +59,10 @@ img {
   display: flex;
 }
 
+svg {
+  display: flex;
+}
+
 html {
   height: 100%;
 }
@@ -189,8 +193,12 @@ main {
 /* footer start */
 .footer-pink {
   background-color: #f67e7e;
+  background-image: url(../images/footer-p-bgi.svg);
+  background-position: bottom -100px left;
+  background-repeat: no-repeat;
 }
-.footer-pink-container {
+
+.footer-pink .footer-pink-container {
   padding-top: 76px;
   padding-bottom: 76px;
   display: flex;
@@ -202,6 +210,7 @@ main {
 .footer-pink-title {
   font-size: 48px;
   line-height: 48px;
+  margin-left: 126px;
 }
 .footer-pink-link {
 }
@@ -240,11 +249,15 @@ main {
   opacity: 0.6;
   font-style: normal;
 }
+
+.footer-terms-text {
+  opacity: 0.6;
+}
+
 .footer-tel {
   color: inherit;
 }
 .footer-terms {
-  opacity: 0.6;
 }
 .footer-socials {
   display: flex;
@@ -253,6 +266,9 @@ main {
   align-items: center;
 }
 .footer-socials-icon {
+  &:active {
+    opacity: 0.8;
+  }
 }
 .footer-icon-link {
   margin-bottom: 51px;

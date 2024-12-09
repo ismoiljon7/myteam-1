@@ -1,108 +1,137 @@
 @import url(./global.css);
 
-.about {
-  padding-top: 120px;
+/* hero start  */
+.hero {
+  padding-top: 47px;
   padding-bottom: 120px;
+  color: #ffff;
   background-image: url(../images/about-bg.svg);
   background-repeat: no-repeat;
   background-position: right -100px bottom;
 }
-.about-container {
+.hero-container {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.about-title {
-  color: #ffff;
+.hero-title {
   font-size: 64px;
   line-height: 100px;
-  margin-right: auto;
 }
-.about-description {
+.hero-content {
   width: 100%;
   max-width: 730px;
-  height: 156px;
 }
 
-.about-divider {
+.hero-divider {
   margin-bottom: 40px;
 }
-.about-description-text {
+
+.hero-description {
   font-size: 18px;
   line-height: 28px;
 }
+
+/* hero end  */
 
 /* ditectors start */
 .directors {
   background-color: #004047;
-}
-.directors-container {
   padding-top: 140px;
   padding-bottom: 140px;
-  display: flex;
-  flex-direction: column;
+  color: #ffff;
+  background-image: url(../images/directors-t-bg.svg);
+  background-repeat: no-repeat;
+  background-position: left -100px top;
+  background-image: url(../images/directors-b-bg.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.directors-container {
 }
 
 .directors-title {
-  color: #ffff;
-  text-align: center;
   font-size: 48px;
   line-height: 48px;
+  text-align: center;
   margin-bottom: 64px;
 }
 .directors-list {
   display: flex;
-  gap: 30px;
+
+  flex-wrap: wrap;
+  row-gap: 76px;
+  column-gap: 30px;
 }
-.directors-info {
+.directors-item {
   width: 100%;
   max-width: 350px;
-  height: 253px;
   background-color: #012f34;
-  justify-items: center;
-  padding-top: 32px;
+  padding: 32px 24px 0 24px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.director-image {
+.directors-ava {
+  width: 96px;
+  height: 96px;
   margin-bottom: 16px;
 }
-.director-name {
-  color: #79c8c7;
+.directors-name {
   font-size: 18px;
   line-height: 28px;
+  color: #79c8c7;
 }
-.director-job {
-  color: white;
-  font-style: italic;
-  font-weight: 500;
+.directors-job {
   font-size: 15px;
-  line-height: 25px;
+  font-weight: 500;
 }
-/* directors end */
+.directors-btn {
+  background-color: #f67e7e;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 0;
+  cursor: pointer;
+  margin-bottom: -28px;
+  margin-top: 28px;
+}
+.plus-image {
+}
+/* ditectors end */
 
-/* clients start */
+/* clients start  */
 .clients {
   background-color: #012f34;
+  padding-top: 140px;
+  padding-bottom: 140px;
+  color: #ffff;
   background-image: url(../images/clients-bg-left.svg);
-  background-repeat: no-repeat;
   background-position: left top;
+  background-repeat: no-repeat;
 }
 .clients-container {
   display: flex;
   flex-direction: column;
-  padding-top: 140px;
-  padding-bottom: 140px;
 }
 
 .clients-title {
-  color: #ffff;
-  text-align: center;
   font-size: 48px;
   line-height: 48px;
+  text-align: center;
   margin-bottom: 64px;
 }
 .clients-list {
   display: flex;
-  gap: 80px;
-  align-items: center;
+  justify-content: space-between;
 }
-
-/* clients end */
+.clients-name {
+}
+.clients-item {
+}
+/* clients end  */

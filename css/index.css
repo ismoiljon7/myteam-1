@@ -142,8 +142,7 @@
 /* main start */
 
 /* hero start  */
-.main {
-}
+
 .hero {
   padding-top: 56px;
   background-color: #014e56;
@@ -202,17 +201,23 @@
   color: #ffffff;
   font-size: 48px;
   line-height: 48px;
-  width: 445px;
+  width: 100%;
+  max-width: 445px;
 }
 .teams-list {
   display: flex;
   flex-direction: column;
   justify-items: center;
   gap: 32px;
+  width: 100%;
+  max-width: 540px;
+  margin-left: 125px;
 }
 .teams-item {
+  display: flex;
 }
 .teams-icon {
+  margin-right: 22px;
 }
 .teams-item-title {
   color: #f67e7e;
@@ -222,7 +227,27 @@
 }
 .teams-description {
   color: #ffffff;
+  font-size: 15px;
+  line-height: 25px;
 }
+
+.teams-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.teams-divider {
+  width: 100%;
+  max-width: 50px;
+  height: 4px;
+  margin-bottom: 54px;
+}
+
+.teams-title-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
 /* teams end */
 
 /* story start */
@@ -244,6 +269,7 @@
   font-size: 48px;
   line-height: 48px;
   width: 932px;
+  text-align: center;
 }
 .blue-text {
   color: #79c8c7;
@@ -251,6 +277,7 @@
 .story-list {
   display: flex;
 
+  text-align: center;
   gap: 30px;
 }
 .story-description {
@@ -274,6 +301,8 @@
 .owner-photo {
   width: 62px;
   height: 62px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /* story end */

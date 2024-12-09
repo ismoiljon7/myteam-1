@@ -1,0 +1,120 @@
+@import url(../css/global.css);
+
+/* #contact-active {
+  width: 100%;
+  max-width: 153px;
+  height: 48px;
+  border: 3px solid white;
+  background-color: black;
+  color: white;
+}   */
+
+/* hero start */
+.hero {
+  padding-top: 47px;
+  padding-bottom: 120px;
+  color: white;
+  background-image: url(../images/contact-l-bg.svg);
+  background-repeat: no-repeat;
+  background-position: top 47px left;
+}
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-content-title {
+  font-size: 64px;
+  line-height: 100px;
+  margin-bottom: 16px;
+}
+.hero-content-subtitle {
+  font-size: 32px;
+  line-height: 48px;
+  margin-bottom: 32px;
+}
+.hero-content-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.hero-content-item {
+  align-items: center;
+  display: flex;
+  gap: 23px;
+}
+.hero-content-description {
+  font-weight: 700;
+}
+/* hero end */
+
+/* form start  */
+.hero-form-wrapper {
+  width: 100%;
+  max-width: 542px;
+}
+
+.hero-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+input {
+  background-color: transparent;
+  border: 0;
+}
+
+.hero-form-control {
+  width: 100%;
+}
+
+.hero-form-control:last-child {
+  margin-bottom: 14px;
+}
+
+.hero-form-input {
+  width: 100%;
+  border-bottom: 1px solid white;
+  padding: 0 0 16px 14px;
+  color: white;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: -0.12px;
+  font-weight: 600;
+}
+
+.hero-form-input::placeholder {
+  opacity: 0.6;
+}
+
+.form-textarea {
+  width: 100%;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid white;
+  color: white;
+  resize: none;
+  padding: 0 0 16px 14px;
+}
+
+.hero-form-input:focus,
+.form-textarea:focus {
+  outline: none;
+}
+
+.form-btn {
+  cursor: pointer;
+  color: #014e56;
+  &:hover {
+    background-color: #014e56;
+    color: white;
+    border: 1px solid white;
+  }
+  &:active {
+    cursor: progress;
+  }
+}
+/* form end */
